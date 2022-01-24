@@ -828,7 +828,7 @@ function Library:create(options)
 	settingsTab:keybind{
 		Name = "Toggle Key",
 		Description = "Key to show/hide the UI.",
-		Keybind = Enum.KeyCode.RAlt,
+		Keybind = Enum.KeyCode.RightAlt,
 		Callback = function()
 			self.Toggled = not self.Toggled
 			Library:show(self.Toggled)
@@ -862,8 +862,6 @@ function Library:create(options)
 	
 	rawset(mt, "creditsContainer", creditsTab.container)
 	
-	creditsTab:credit{Name = "Azenyl", Description = "Main Script Developer", Discord = "Azenylmane#0511"}
-
 	return mt
 end
 
