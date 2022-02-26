@@ -1,10 +1,5 @@
 game:GetService('Players').LocalPlayer.Character.Humanoid.Name = "Humanoida"
 repeat wait()
-game:GetService("StarterGui"):SetCore("SendNotification",{
-Title = "Jailbreak Admin V3",
-Text = "Press E 2 stop flying",
-Duration = 15,
-})
 
 until game:GetService"Players".LocalPlayer and game:GetService"Players".LocalPlayer.Character and game:GetService"Players".LocalPlayer.Character:findFirstChild("UpperTorso") and game:GetService"Players".LocalPlayer.Character:findFirstChild("Humanoida")
 local mouse = game:GetService"Players".LocalPlayer:GetMouse()
