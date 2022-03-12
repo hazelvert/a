@@ -394,7 +394,7 @@ function Library:create(options)
 		Name = "Mercury",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes.Dark,
-		Link = "https://github.com/deeeity/mercury-lib"
+		Link = "https://arkmane.xyz"
 	}, options)
 	if options.Link:sub(-1, -1) == "/" then
 		options.Link = options.Link:sub(1, -2)
